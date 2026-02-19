@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+}
+
+body{
+    width: 98vw;
+    height: 100vh;
+}
+
+.bannerInicial{
+    width: 98vw;
+    height: 90vh;
+    background-image: url('../assets/images/Fondo.png');
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+.bannerInicial .banner{
+    grid-column: 1 / 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgba(80, 94, 102, 0.9); /* Blanco al 50% de opacidad */
+    grid-row: 1 / 2;
+}
+.banner .logo{
+    display: flex;
+    justify-content: center; 
+    color: white;
+    font-size: 1.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.banner .logo .letraAzul{
+    color: #1E90FF;
+}
+
+.banner .accesosPaginas {
+    display: flex;
+    justify-content: center;
+
+}
+
+.banner .accesosPaginas ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.banner .accesosPaginas ul li{
+    padding: 0 20px;
+}
+
+.banner .accesosPaginas a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-family: google sans, sans-serif;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+}
+.banner .accesosPaginas a:hover {
+    border: 2px;
+    color: white;
+}
+.banner .accesosPaginas a.active {
+    border: 2px solid #1E90FF;
+    color: #1E90FF;
+    text-align: center;
+
+}
+.textoInicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    font-family: google sans, sans-serif;
+    text-align: center;
+}
+.textoInicio p{
+    background-color: rgba(80, 94, 102, 0.9); /* Blanco al 50% de opacidad */
+}
+.menuInfo{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #4AC8FC;
+    padding: 120px 150px 50px 150px;
+}
+.menuInfo .textoInfo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 0 20px 0 0;
+}
+.menuInfo .textoInfo .titulo{
+    font-size: 20px;
+
+}
+
+.menuPortafolio{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+
+}
+
